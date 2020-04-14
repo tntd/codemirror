@@ -1,3 +1,3 @@
 import TntCodeMirror from "./CodeMirror";
 
-export const CodeMirror = TntCodeMirror;
+export default TntCodeMirror;

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { CodeMirror } from "../lib";
+import CodeMirror from "../lib";
 
 import 'codemirror/theme/3024-day.css';
 import 'codemirror/theme/3024-night.css';
@@ -19,6 +19,7 @@ const App = () => (
 			onChange={(value) => {
 				console.log(value)
 			}}
+			height={500}
 			lineNumbers={true}
 			placeholder="请输入你的内容"
 			lineNumberFormatter={(num) => {
