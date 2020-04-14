@@ -28,7 +28,6 @@ export default class CodeInput extends Component {
 			indentWithTabs = false,
 			electricChars = true,
 			firstLineNumber = 1,
-			lineNumberFormatter,
 		} = this.props;
 
 		const themeInitMap = {
@@ -49,7 +48,6 @@ export default class CodeInput extends Component {
 			indentWithTabs: indentWithTabs,
 			electricChars: electricChars,
 			firstLineNumber: firstLineNumber,
-			lineNumberFormatter,
 		});
 		if (this.props.defaultValue && !this.props.value) {
 			this.editBox.setValue(this.props.defaultValue);

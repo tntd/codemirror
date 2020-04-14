@@ -17,35 +17,29 @@ import 'codemirror/mode/javascript/javascript.js';
 <CodeMirror
 	mode='javascript'
 	theme='night'
-	defaultValue="124"
 	value="789"
 	onChange={(value) => {
 		console.log(value)
 	}}
 	lineNumbers={true}
 	placeholder="请输入你的内容"
-	lineNumberFormatter={(num) => {
-		return "第" + num.toString() + '行'
-	}}
 />
 ```
 ## API
-| 参数                | 说明           | 类型                     | 默认值    | 是否必须 |
-| :------------------ | :------------- | :----------------------- | :-------- | :------- |
-| mode                | 当前语言模式   | string                   | 无        | 否       |
-| theme               | 主题           | String，预置了day、night | day       | 否       |
-| defaultValue        | 默认内容       | string                   | 无        | 否       |
-| value               | 内容           | string                   | 无        | 否       |
-| autofocus           | 自动聚焦       | boolean                  | true      | 否       |
-| tabSize             | 缩进           | int                      | 4         | 否       |
-| height              | 编辑器高度     | int                      | 300       | 否       |
-| placeholder         | 内容           | string                   | 请输入... | 否       |
-| readOnly            | 是否只读       | boolean                  | false     | 否       |
-| lineNumbers         | 是否显示行数字 | boolean                  | true      | 否       |
-| firstLineNumber     | 是否显示行数字 | int                      | 1         | 否       |
-| lineNumberFormatter | 格式化行数字   | function                 |           | 否       |
-| indentWithTabs      | -              | boolean                  | true      | 否       |
-| smartIndent         | -              | boolean                  | true      | 否       |
+| 参数            | 说明           | 类型                     | 默认值    | 是否必须 |
+| :-------------- | :------------- | :----------------------- | :-------- | :------- |
+| mode            | 当前语言模式   | string                   | 无        | 否       |
+| theme           | 主题           | String，预置了day、night | day       | 否       |
+| value           | 内容           | string                   | 无        | 否       |
+| autofocus       | 自动聚焦       | boolean                  | true      | 否       |
+| tabSize         | 缩进           | int                      | 4         | 否       |
+| height          | 编辑器高度     | int                      | 300       | 否       |
+| placeholder     | 内容           | string                   | 请输入... | 否       |
+| readOnly        | 是否只读       | boolean                  | false     | 否       |
+| lineNumbers     | 是否显示行数字 | boolean                  | true      | 否       |
+| firstLineNumber | 是否显示行数字 | int                      | 1         | 否       |
+| indentWithTabs  | -              | boolean                  | true      | 否       |
+| smartIndent     | -              | boolean                  | true      | 否       |
 
 ## 回调事件
 | 参数       | 说明             | 类型           | 默认值 | 是否必须 |
