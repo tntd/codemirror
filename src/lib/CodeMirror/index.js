@@ -31,7 +31,7 @@ export default class CodeInput extends Component {
 		} = this.props;
 
 		const themeInitMap = {
-			day: "neat",
+			day: "default",
 			night: "material"
 		}
 		this.editBox = codemirror.fromTextArea(document.getElementById(`fb_${this.randomId}`), {
