@@ -38,6 +38,7 @@ import 'codemirror/mode/javascript/javascript.js';
 | value               | 内容           | string                   | 无        | 否       |
 | autofocus           | 自动聚焦       | boolean                  | true      | 否       |
 | tabSize             | 缩进           | int                      | 4         | 否       |
+| height              | 编辑器高度     | int                      | 300       | 否       |
 | placeholder         | 内容           | string                   | 请输入... | 否       |
 | readOnly            | 是否只读       | boolean                  | false     | 否       |
 | lineNumbers         | 是否显示行数字 | boolean                  | true      | 否       |
